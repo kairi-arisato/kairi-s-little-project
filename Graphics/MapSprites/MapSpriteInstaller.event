@@ -1,0 +1,17 @@
+//Standing map sprites
+ALIGN 4
+DismountKnightStand:
+#incext Png2Dmp --lz77 "pngdmp/Dismounted (M) Sword {ArcherBias}-stand.png"
+
+ALIGN 4
+DismountKnightStandF:
+#incext Png2Dmp --lz77 "pngdmp/Dismounted (F) Sword {ArcherBias}-stand.png"
+
+//Moving map sprites
+ALIGN 4
+DismountKnightMove:
+#incext Png2Dmp --lz77 "pngdmp/Dismounted (M) Sword {ArcherBias}-walk.png"
+
+ALIGN 4
+DismountKnightMoveF:
+#incext Png2Dmp --lz77 "pngdmp/Dismounted (F) Sword {ArcherBias}-walk.png"

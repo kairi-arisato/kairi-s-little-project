@@ -1,0 +1,6 @@
+ALIGN 16
+#include "TableInstaller.event"
+
+#include "EA_txt/Installer.event"
+
+#include "MapSprite/Installer.event"

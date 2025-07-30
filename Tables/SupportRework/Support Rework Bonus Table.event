@@ -1,0 +1,25 @@
+#define _C2EA_Support_Rework_Bonus_Table(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019) "BYTE arg000 arg001 arg002 arg003 arg004 arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 "
+
+PUSH
+ORG $39797C
+POIN SupportReworkBonusTable
+ORG $781DBC
+POIN SupportReworkBonusTable
+ORG $8F112C
+POIN SupportReworkBonusTable
+ORG $8F116C
+POIN SupportReworkBonusTable
+ORG $A18E20
+POIN SupportReworkBonusTable
+ORG $AC1C4C
+POIN SupportReworkBonusTable
+ORG $C89C90
+POIN SupportReworkBonusTable
+ORG $FE14D8
+POIN SupportReworkBonusTable
+ORG $FE200C
+POIN SupportReworkBonusTable
+POP
+ALIGN 4
+SupportReworkBonusTable:
+_C2EA_Support_Rework_Bonus_Table(0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0)

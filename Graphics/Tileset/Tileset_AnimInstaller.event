@@ -1,0 +1,5 @@
+ALIGN 4
+FieldsPalette1:
+#incbin "_palettes/FieldsPalette1.dmp"
+
+EventPointerTable(0x02,FieldsPalette1)

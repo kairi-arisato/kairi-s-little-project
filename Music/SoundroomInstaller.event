@@ -1,0 +1,33 @@
+#define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+ALIGN 4
+NewSoundRoom:
+SoundRoomEntry(FromNowOnID,0,FNOName)
+SoundRoomTerminator
+
+
+PUSH
+ORG $1BC14
+POIN NewSoundRoom
+ORG $1BCC4
+POIN NewSoundRoom
+ORG $AECA8
+POIN NewSoundRoom
+ORG $AECD0
+POIN NewSoundRoom
+ORG $AED2C
+POIN NewSoundRoom
+ORG $AEEBC
+POIN NewSoundRoom
+ORG $AF438
+POIN NewSoundRoom
+ORG $AF830
+POIN NewSoundRoom
+ORG $AFE30
+POIN NewSoundRoom
+ORG $B0080
+POIN NewSoundRoom
+ORG $B042C
+POIN NewSoundRoom
+POP

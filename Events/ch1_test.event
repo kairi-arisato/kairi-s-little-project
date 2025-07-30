@@ -1,0 +1,93 @@
+EventPointerTable(0x7, PointerList)
+
+setText(0x160, NewChName)
+
+ALIGN 4
+NewChName:
+String("Ch.1: fe3ch1")
+BYTE 0
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1//This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,C1VEvent,18,9)
+END_MAIN
+
+TurnBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+
+Units1:
+UNIT Marth MarthLord 0x0 Level(1,Ally,1) [14,18] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Arran Paladin 0x0 Level(1,Ally,0) [13,18] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Luke Cavalier 0x0 Level(1,Ally,0) [15,18] 0x0 0x0 0x0 0x0 [IronSword,IronLance] NoAI
+UNIT Gordin Archer 0x0 Level(5,Ally,0) [13,19] 0x0 0x0 0x0 0x0 [SteelBow] NoAI
+UNIT Ryan Archer 0x0 Level(1,Ally,0) [14,19] 0x0 0x0 0x0 0x0 [IronBow] NoAI
+UNIT Draug Armor 0x0 Level(6,Ally,0) [13,17] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
+UNIT Roderick Cavalier 0x0 Level(1,Ally,0) [12,19] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
+UNIT Cecil Cavalier_F 0x0 Level(1,Ally,0) [14,17] 0x0 0x0 0x0 0x0 [SlimLance,IronSword] NoAI
+UNIT
+
+Enemies: 
+UNIT 0x80 Brigand 0x0 Level(1,Enemy,0) [13,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT 0x80 Brigand 0x0 Level(1,Enemy,0) [14,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Lorenz General 0x0 Level(2,Enemy,0) [2,6] 0x0 0x0 0x0 0x0 [IronAxe] GuardTileAI
+UNIT
+
+ALIGN 4
+
+BeginningScene:
+FADU 16
+SCOORD sB [-1,-20] // -20 seems to be the right spot. I'll use this for world maps.
+LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 Enemies
+ENDA
+
+EndingScene:
+MNC2 1
+ENDA
+
+C1VEvent:
+	VillageEventItem(VillageText2, Village, 0x1)
+
+MESSAGE Events end at offset CURRENTOFFSET
