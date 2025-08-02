@@ -139,6 +139,6 @@ Continue on foot.[X]
 
 #include "MusicNames.txt"
 
-//#include "unitnames_text.txt"
+#include "unitnames_text.txt"
 
 #include "classnames.txt"

@@ -34,19 +34,19 @@ FILL 256
 #define HardClassLock 3
 #define EndLockArray 0
 
-//CavArray:
-//BYTE HardClassLock
-//BYTE Cavalier_F
-//BYTE Cavalier
-//BYTE Paladin
-//BYTE Paladin_F
-//BYTE EndLockArray
+CavArray:
+BYTE HardClassLock
+BYTE Cavalier_F
+BYTE Cavalier
+BYTE Paladin
+BYTE Paladin_F
+BYTE EndLockArray
 
-//DismtArray:
-//BYTE HardClassLock
-//BYTE Knight_Paladin
-//BYTE Knight_Cav
-//BYTE Knight_F
+DismtArray:
+BYTE HardClassLock
+BYTE Knight_Paladin
+BYTE Knight_Cav
+BYTE Knight_F
 //BYTE EndLockArray
 
 //TestArray:
