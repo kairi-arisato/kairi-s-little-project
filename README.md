@@ -11,6 +11,11 @@ Emblem 8.
 This repository is intended to be installed via Event Assembler. Other methods
 of installation, such as FEBuilderGBA, are not officially supported.
 
+## What's this hack about?
+
+Uh... A remake of FE3, with some FE12 elements?
+Perhaps not.
+
 ## Installation
 
 1. Download or clone this repository onto your device.
