@@ -37,8 +37,9 @@
     MountedClassTable:
 	//Replace this with a list of your classes, mounted and unmounted.
 	MountedUnmounted(Cavalier, Knight_Cav)
-	MountedUnmounted(Cavalier_F, Knight_F)
+	MountedUnmounted(Cavalier_F, Knight_Cav_F)
 	MountedUnmounted(Paladin, Knight_Paladin)
+	MountedUnmounted(Paladin_F, Knight_Paladin_F)
     EndMountUnmountedTable
     
     

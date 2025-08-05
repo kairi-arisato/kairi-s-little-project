@@ -77,10 +77,17 @@ ALIGN 4
 
 BeginningScene:
 FADU 16
-SCOORD sB [-1,-20] // -20 seems to be the right spot. I'll use this for world maps.
+//SCOORD sB [-1,-20] // -20 seems to be the right spot. I'll use this for world maps.
 LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
 ENUN
 LOAD1 0x1 Enemies
+ENUN
+CAMERA_CENTERED Marth
+CURSOR Marth
+STAL 20
+REMOVE_CURSORS
+Text(MarthTalksToJagenText)
+NoFade
 ENDA
 
 EndingScene:

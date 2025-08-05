@@ -126,7 +126,7 @@
 #define Swordmaster 0x15
 #define Swordmaster_F 0x16
 #define Knight_Paladin 0x17
-#define Knight_F 0x18
+#define Knight_Paladin_F 0x18
 #define Archer 0x19
 #define Archer_F 0x1A
 #define Sniper 0x1B
@@ -153,14 +153,14 @@
 #define Druid_F 0x30
 #define Summoner 0x31
 #define Summoner_F 0x32
-#define Rogue 0x33
+#define Hunter 0x33
 #define GorgonEgg 0x34
 #define GreatKnight 0x35
 #define GreatKnight_F 0x36
 #define Recruit_2 0x37
 #define Journeyman_3 0x38
 #define Pupil_3 0x39
-#define Recruit_3 0x3A
+#define Knight_Cav_F 0x3A
 #define Manakete_2 0x3B
 #define Manakete_2_F 0x3C
 #define Journeyman_1 0x3D

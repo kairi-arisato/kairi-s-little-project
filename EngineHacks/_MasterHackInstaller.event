@@ -241,7 +241,7 @@ POP
   // Autosave Killer
   #include "Autosave/Installer.event"
   
-  #include "RemoveRescue.event"
+  //#include "RemoveRescue.event"
   
   //#include "PreventRescue/Installer.event"
   

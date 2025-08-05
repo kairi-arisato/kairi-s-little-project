@@ -40,13 +40,16 @@ BYTE Cavalier_F
 BYTE Cavalier
 BYTE Paladin
 BYTE Paladin_F
+BYTE Armor
+BYTE Armor_F
 BYTE EndLockArray
 
 DismtArray:
 BYTE HardClassLock
 BYTE Knight_Paladin
+BYTE Knight_Paladin_F
 BYTE Knight_Cav
-BYTE Knight_F
+BYTE Knight_Cav_F
 //BYTE EndLockArray
 
 //TestArray:

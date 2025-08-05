@@ -22,8 +22,8 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x14 Myrmidon (F),MyrmidonSkillList|IsPointer
 0x15 Swordmaster,SwordmasterSkillList|IsPointer
 0x16 Swordmaster (F),SwordmasterSkillList|IsPointer
-0x17 Assassin,AssassinSkillList|IsPointer
-0x18 Assassin (F),AssassinSkillList|IsPointer
+0x17 Knight_Paladin,CavalierSkillList|IsPointer
+0x18 Knight_Cav (F),CavalierSkillList|IsPointer
 0x19 Archer,ArcherSkillList|IsPointer
 0x1A Archer (F),ArcherSkillList|IsPointer
 0x1B Sniper,SniperSkillList|IsPointer
@@ -50,14 +50,14 @@ INLINE ClassLevelUpSkillTable,Skill Pointer
 0x30 Druid (F),DruidSkillList|IsPointer
 0x31 Summoner,SummonerSkillList|IsPointer
 0x32 Summoner (F),SummonerSkillList|IsPointer
-0x33 Rogue,RogueSkillList|IsPointer
+0x33 Knight_Cav,RogueSkillList|IsPointer
 0x34 Gorgon Egg,0x0
 0x35 Great Knight,GreatKnightSkillList|IsPointer
 0x36 Great Knight (F),GreatKnightSkillList|IsPointer
 0x37 Recruit (2),0x0
 0x38 Journeyman (3),0x0
 0x39 Pupil (3),0x0
-0x3A Recruit (3),0x0
+0x3A Knight_Cav (F),0x0
 0x3B Manakete,0x0
 0x3C Manakete (F),ManaketeFSkillList|IsPointer
 0x3D Journeyman (1),0x0
