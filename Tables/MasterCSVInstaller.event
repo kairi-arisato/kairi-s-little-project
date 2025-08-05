@@ -4,3 +4,6 @@ ALIGN 16
 #include "EA_txt/Installer.event"
 
 #include "MapSprite/Installer.event"
+
+//ALIGN 4
+//#include "NightmareModules\CharactersClasses\NewSupportTable.event"

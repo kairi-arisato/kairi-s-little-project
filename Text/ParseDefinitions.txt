@@ -29,16 +29,42 @@
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
 
-[FFL] = [FarFarLeft]
-[FL] = [FarLeft]
-[ML] = [MidLeft]
-[L] = [Left]
-[R] = [Right]
-[MR] = [MidRight]
-[FR = [FarRight]
-[FFR] = [FarFarRight]
-
 [CurrentPortrait] = [0xFF][0xFF]
+
+//Open Left
+[OML] = [OpenMidLeft]
+[L] = [OpenLeft]
+[FL] = [OpenFarLeft]
+[FFL] = [OpenFarFarLeft]
+
+//Open Right
+[OMR] = [OpenMidRight]
+[R] = [OpenRight]
+[FR] = [OpenFarRight]
+[FFR] = [OpenFarFarRight]
+
+//Move Left
+[MML] = [MoveMidLeft]
+[MFL] = [MoveFarLeft]
+[MFFL] = [MoveFarFarLeft]
+[ML] = [MoveLeft]
+
+//Move Right
+[MMR] = [MoveMidRight]
+[MFR] = [MoveFarRight]
+[MFFR] = [MoveFarFarRight]
+[MR] = [MoveRight]
+
+[LOF] = [LoadOverworldFaces]
+[TS] = [ToggleSmile]
+[CE] = [CloseEyes]
+[OE] = [OpenEyes]
+
+[LF] = [LoadFace]
+[CF] = [ClearFace]
+
+[LoadMarth] = [LoadFace][0x2][0x1]
+[LoadJagen] = [LoadFace][0x54][0x1]
 
 [LoadInnes] = [LoadFace][0xf][0x1]
 [LoadCormag] = [LoadFace][0x13][0x1]
@@ -50,12 +76,6 @@
 [LoadSelena] = [LoadFace][0x3f][0x1]
 [LoadGerik] = [LoadFace][0x1b][0x1]
 [LoadSaleh] = [LoadFace][0x20][0x1]
-[LoadEirika] = [LoadFace][0x2][0x1]
-
-[LF] = [LoadFace]
-[CF] = [ClearFace]
-
-
 
 [period] = [0xDE][0x82]
 [dquote] = [0xDE][0x83]
@@ -93,15 +113,29 @@
 [eight] = [0xe2][0x81][0xb8]
 [nine] = [0xe2][0x81][0xb9]
 
-
-
 [space] = [0xDE][0xB0]
 [sp] = [0xDE][0xB0]
 
-
-
-
-
-
+//Text Engine Rework
+[Font] = [0x80][0x26]
+[TextPalette] = [0x80][0x27]
+[ColorGroup] = [0x80][0x28]
+[BoxBgPalette] = [0x80][0x29]
+[BoxType] = [0x80][0x2A]
+[BoxHeight] = [0x80][0x2B] //[0x1] for height 1, [0x2] for height 2, [0x3] for height 3. should work the same as FEBuilder TER
+[BoopPitch] = [0x80][0x2C]
+[PlaySound] = [0x80][0x2D]
+[MugLoc] = [0x80][0x2E]
+[LoadFaceFancy] = [0x80][0x2F]
+[MFL2] = [0x80][0x30]
+[MML2] = [0x80][0x31]
+[ML2] = [0x80][0x32]
+[MR2] = [0x80][0x33]
+[MMR2] = [0x80][0x34]
+[MFR2] = [0x80][0x35]
+[MFFL2] = [0x80][0x36]
+[MFFR2] = [0x80][0x37]
+[TextSpeed] = [0x80][0x38]
+[DefaultAttrs] = [0x01][0x02][0x01][0x01][0x0D]
 
 

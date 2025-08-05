@@ -17,18 +17,6 @@ Learned  [X]
 
 #include "statscreen_text.txt"
 
-# 0xc0a
-[MR][LoadEirika][ML][LoadFace][0x15][0x01][OpenMidRight]Brother... is this working?[a][n]
-[ML][beat]I have no idea, Eirika.[a][n]
-[ML][LoadFace][0x14][0x01]Oh, wait.[.4] It's actually working.[A][.]
-[OpenMidRight][ToggleSmile]Really?[.4] No way![A][CF][ML][CF][MR][X]
-
-# 0xc0b
-[OpenMidRight][LoadFace][0x16][0x01]Kyle! Kyle, look at this![A][NL]
-[OpenMidLeft][LoadFace][0x18][0x01]*sigh*[.4][NL]Is it another painting, Forde?[A][N]
-[OpenMidRight]No, no! Look![....][NL]The text works![A][NL][OpenMidLeft]Oh, shit.[.4] That's fucking cool,[N]
-dude![A][X]
-
 # 0xd4c HouseText
 //first text ID in the free block
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
@@ -137,8 +125,10 @@ Call and ride your mount.[X]
 ## DismountDesc
 Continue on foot.[X]
 
-#include "MusicNames.txt"
+#include "MusicNames.txt
 
-#include "unitnames_text.txt"
+#include "ChapterTextInstaller.txt"
 
 #include "classnames.txt"
+
+//#include "unitnames_text.txt"

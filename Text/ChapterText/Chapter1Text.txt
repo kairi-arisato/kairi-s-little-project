@@ -1,0 +1,5 @@
+## MarthTalksToJagenText
+[OMR][LoadMarth][OML][LoadJagen]
+[OMR]jagen is this working[ANL]
+[OML]yes sire[ANL]
+actually idk[A][X]
